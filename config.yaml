@@ -1,0 +1,30 @@
+# Home and Office Coordinates
+
+locations:
+  home:
+    label: Home
+    lat: 
+    lon: 
+  office:
+    label: Office
+    lat:   
+    lon: 
+ 
+# ---- Your commute ----
+commute:
+  from: home
+  to: office
+  arrive_by: "09:00"
+  buffer_minutes: 5        
+  days: [monday, tuesday, wednesday, thursday, friday]
+ 
+# Transport modes TfL is allowed to use
+modes: [tube, bus, overground, elizabeth-line, dlr, national-rail, tram, walking]
+ 
+# When to show the little tips at the top of the email
+thresholds:
+  umbrella_rain_pct: 40
+  coat_feels_like_c: 10
+  hot_c: 26
+  windy_gust_mph: 35
+  uv_index: 6
